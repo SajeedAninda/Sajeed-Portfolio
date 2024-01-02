@@ -14,7 +14,7 @@ const MyExperience = () => {
 
                 <div className='flex flex-col lg:flex-row items-center gap-4'>
                     <div className='flex-1 py-12'>
-                        <motion.div whileHover={{ scale: 1.05 }} className='text-semibold text-xl space-y-3 border-2 border-[#863d8f] p-6 rounded-md hover:bg-[#282e46] hover:border-2 hover:border-[#282e46] group cursor-pointer'>
+                        <motion.div data-aos="fade-up" whileHover={{ scale: 1.05 }} className='text-semibold text-xl space-y-3 border-2 border-[#863d8f] p-6 rounded-md hover:bg-[#282e46] hover:border-2 hover:border-[#282e46] group cursor-pointer text-center md:text-left'>
                             <p className='group-hover:text-white'>
                                 Following my graduation, I enrolled in a comprehensive Full Stack Development course at Programming Hero. Throughout this intensive six-month program, my primary focus was on mastering the MERN (MongoDB, Express.js, React, Node.js) Stack. Over the course duration, I successfully completed approximately 20 projects encompassing both frontend and backend development.
                             </p>
@@ -24,7 +24,7 @@ const MyExperience = () => {
                             </p>
                         </motion.div>
                     </div>
-                    <div className='lottieDiv flex-1 flex justify-center w-full md:w-[60%] lg:w-full'>
+                    <div className='lottieDiv flex-1 flex justify-center w-full md:w-[60%] lg:w-full' data-aos="fade-up">
                         <Lottie animationData={experienceLottie} loop={true} />
                     </div>
                 </div>

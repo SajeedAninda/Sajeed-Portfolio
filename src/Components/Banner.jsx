@@ -69,7 +69,7 @@ const Banner = () => {
                     </a>
                 </motion.div>
                 <motion.div
-
+                    data-aos="fade-left"
                     className='imageDiv flex-1 flex justify-center'
                     animate={controls}
                 >

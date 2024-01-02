@@ -13,7 +13,11 @@ const MyEducation = () => {
 
                 <div className='mt-8'>
                     <div className='flex'>
-                        <motion.div whileHover={{ scale: 1.05 }} className="cardBg cursor-pointer border-4 border-[#863d8f] w-full xl:w-[85%] rounded-md shadow-lg mb-12 py-5 xl:pr-5 h-fit">
+                        <motion.div data-aos="fade-right"
+                            data-aos-offset="200"
+                            data-aos-easing="ease-in-sine" 
+                            whileHover={{ scale: 1.05 }} 
+                            className="cardBg cursor-pointer border-4 border-[#863d8f] w-full xl:w-[85%] rounded-md shadow-lg mb-12 py-5 xl:pr-5 h-fit">
                             <div className="xl:flex gap-6 px-4 leading-none max-w-4xl">
                                 <div className="flex justify-center xl:justify-start xl:flex-none">
                                     <img
@@ -61,7 +65,9 @@ const MyEducation = () => {
                         <div className='w-[15%] hidden lg:block'>
 
                         </div>
-                        <motion.div whileHover={{ scale: 1.05 }} className="cardBg cursor-pointer border-4 border-[#863d8f] w-full xl:w-[85%] rounded-md shadow-lg mb-12 py-5 xl:pr-5 h-fit">
+                        <motion.div data-aos="fade-left"
+                            data-aos-offset="200"
+                            data-aos-easing="ease-in-sine" whileHover={{ scale: 1.05 }} className="cardBg cursor-pointer border-4 border-[#863d8f] w-full xl:w-[85%] rounded-md shadow-lg mb-12 py-5 xl:pr-5 h-fit">
                             <div className="xl:flex gap-6 px-4 leading-none max-w-4xl">
                                 <div className="flex justify-center xl:justify-start xl:flex-none">
                                     <img
@@ -76,22 +82,22 @@ const MyEducation = () => {
                                     <div className='space-y-4 text-center xl:text-left'>
                                         <div className="text-md text-center xl:text-left my-2">
                                             <span className="font-bold capitalize text-center xl:text-left">
-                                            Higher Secondary Certificate
+                                                Higher Secondary Certificate
                                             </span>
                                         </div>
                                         <div className="text-md text-center xl:text-left my-2">
                                             <span className="font-bold capitalize text-center xl:text-left">
-                                            Jun 2016- May 2018
+                                                Jun 2016- May 2018
                                             </span>
                                         </div>
                                         <div className="text-md text-center xl:text-left my-2">
                                             <span className="font-bold capitalize text-center xl:text-left">
-                                            GPA: 4.42/5.00
+                                                GPA: 4.42/5.00
                                             </span>
                                         </div>
                                         <div className="text-md my-2">
                                             <span className="font-medium leading-5">
-                                            Completing my Higher Secondary Certificate (HSC) at BAF Shaheen College Dhaka has been a formative chapter in my educational journey. The institution's commitment to academic excellence, coupled with a nurturing environment, played a pivotal role in laying a strong foundation for my future endeavors.
+                                                Completing my Higher Secondary Certificate (HSC) at BAF Shaheen College Dhaka has been a formative chapter in my educational journey. The institution's commitment to academic excellence, coupled with a nurturing environment, played a pivotal role in laying a strong foundation for my future endeavors.
                                             </span>
                                         </div>
                                     </div>

@@ -51,7 +51,7 @@ const Projects = () => {
 
                 <div className='py-12'>
                     {/* SOVEREIGN ASSETS  */}
-                    <div className='flex gap-6 lg:gap-0 flex-col-reverse lg:flex-row items-center border-b-2 border-[#f9d5fa] pb-6'>
+                    <div className='flex gap-6 lg:gap-0 flex-col-reverse lg:flex-row items-center border-b-2 border-[#f9d5fa] pb-6' data-aos="fade-up-right">
                         <div className='texts w-full lg:w-[50%] space-y-3'>
                             <h2 className='text-4xl text-[#151515] font-bold'>Sovereign Assets Solutions</h2>
                             <p className='text-xl text-[#151515] font-semibold'>A web application that streamlines asset management for businesses through an intuitive platform, allowing HR/Admins to effortlessly track employee interactions with company assets.</p>
@@ -137,7 +137,7 @@ const Projects = () => {
                     </div>
 
                     {/* DELIGHTFUL BLOGS  */}
-                    <div className='flex gap-6 lg:gap-0 flex-col-reverse lg:flex-row  items-center pt-8 border-b-2 border-[#f9d5fa] pb-6'>
+                    <div className='flex gap-6 lg:gap-0 flex-col-reverse lg:flex-row  items-center pt-8 border-b-2 border-[#f9d5fa] pb-6' data-aos="fade-up-right">
                         <div className='texts w-full lg:w-[50%] space-y-3'>
                             <h2 className='text-4xl text-[#151515] font-bold'>Delightful Blogs</h2>
                             <p className='text-xl text-[#151515] font-semibold'>An intuitive web platform that provides a delightful and immersive experience for bloggers and readers alike.</p>
@@ -215,7 +215,7 @@ const Projects = () => {
                     </div>
 
                     {/* AUTO CRAFTERS */}
-                    <div className='flex gap-6 lg:gap-0 flex-col-reverse lg:flex-row  items-center pt-8'>
+                    <div className='flex gap-6 lg:gap-0 flex-col-reverse lg:flex-row  items-center pt-8' data-aos="fade-up-right">
                         <div className='texts w-full lg:w-[50%] space-y-3'>
                             <h2 className='text-4xl text-[#151515] font-bold'>Auto Crafters</h2>
                             <p className='text-xl text-[#151515] font-semibold'>Auto Crafters stands as the ultimate hub for automotive excellence. Carefully crafted, the platform ensures users a thorough and immersive journey into the realm of automobiles.</p>

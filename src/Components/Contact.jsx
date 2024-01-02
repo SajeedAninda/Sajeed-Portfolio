@@ -47,7 +47,7 @@ const Contact = () => {
                 </h3>
 
                 <div className='flex lg:gap-10 flex-col lg:flex-row'>
-                    <div className='flex-1'>
+                    <div className='flex-1' data-aos="flip-left">
                         <div className='w-full lg:flex-1 flex justify-center items-end'>
                             <div role="listitem" className="relative pt-28 w-[90%] lg:w-[85%]">
                                 <div className="rounded-2xl overflow-hidden shadow-2xl infoBg">
@@ -100,7 +100,7 @@ const Contact = () => {
 
 
 
-                    <div className="h-fit my-8 p-8 rounded-md border-2 border-[#863d8f] flex-1">
+                    <div className="h-fit my-8 p-8 rounded-md border-2 border-[#863d8f] flex-1" data-aos="flip-right">
                         <form ref={form} onSubmit={sendEmail}>
                             <div className='flex flex-col md:flex-row w-full gap-6'>
                                 <div className='w-full'>

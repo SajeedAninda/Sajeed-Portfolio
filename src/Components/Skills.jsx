@@ -21,47 +21,47 @@ const Skills = () => {
 
                 <div
                     className='py-6 grid grid-cols-1 md:grid-cols-3 gap-8'>
-                    <motion.div whileHover={{ scale: 1.05 }} className='cursor-pointer p-4 border-2 border-[#863d8f] rounded-md flex justify-between gap-2 items-center flex-col bg-gradient-to-r from-[#853d8f83] to-[#f5d4f5] hover:bg-[#040407] hover:border-2 hover:border-[#282e46] group'>
+                    <motion.div whileHover={{ scale: 1.05 }} className='cursor-pointer p-4 border-2 border-[#863d8f] rounded-md flex justify-between gap-2 items-center flex-col bg-gradient-to-r from-[#853d8f83] to-[#f5d4f5] hover:bg-[#040407] hover:border-2 hover:border-[#282e46] group' data-aos="zoom-out-up">
                         <IoLogoHtml5 className='text-[130px] group-hover:text-white' />
                         <h2 className='text-3xl text-[#151515] group-hover:text-white font-bold text-center'>HTML</h2>
                     </motion.div>
 
-                    <motion.div whileHover={{ scale: 1.05 }} className='cursor-pointer p-4 border-2 border-[#863d8f] rounded-md flex justify-between gap-2 items-center flex-col bg-gradient-to-r from-[#853d8f83] to-[#f5d4f5] hover:bg-[#040407] hover:border-2 hover:border-[#282e46] group'>
+                    <motion.div whileHover={{ scale: 1.05 }} className='cursor-pointer p-4 border-2 border-[#863d8f] rounded-md flex justify-between gap-2 items-center flex-col bg-gradient-to-r from-[#853d8f83] to-[#f5d4f5] hover:bg-[#040407] hover:border-2 hover:border-[#282e46] group' data-aos="zoom-out-up">
                         <FaCss3Alt className='text-[130px] group-hover:text-white' />
                         <h2 className='text-3xl text-[#151515] group-hover:text-white font-bold text-center'>CSS</h2>
                     </motion.div>
 
-                    <motion.div whileHover={{ scale: 1.05 }} className='cursor-pointer p-4 border-2 border-[#863d8f] rounded-md flex justify-between gap-2 items-center flex-col bg-gradient-to-r from-[#853d8f83] to-[#f5d4f5] hover:bg-[#040407] hover:border-2 hover:border-[#282e46] group'>
+                    <motion.div whileHover={{ scale: 1.05 }} className='cursor-pointer p-4 border-2 border-[#863d8f] rounded-md flex justify-between gap-2 items-center flex-col bg-gradient-to-r from-[#853d8f83] to-[#f5d4f5] hover:bg-[#040407] hover:border-2 hover:border-[#282e46] group' data-aos="zoom-out-up">
                         <SiJavascript className='text-[130px] group-hover:text-white' />
                         <h2 className='text-3xl text-[#151515] group-hover:text-white font-bold text-center'>Javascript</h2>
                     </motion.div>
 
-                    <motion.div whileHover={{ scale: 1.05 }} className='cursor-pointer p-4 border-2 border-[#863d8f] rounded-md flex justify-between gap-2 items-center flex-col bg-gradient-to-r from-[#853d8f83] to-[#f5d4f5] hover:bg-[#040407] hover:border-2 hover:border-[#282e46] group'>
+                    <motion.div whileHover={{ scale: 1.05 }} className='cursor-pointer p-4 border-2 border-[#863d8f] rounded-md flex justify-between gap-2 items-center flex-col bg-gradient-to-r from-[#853d8f83] to-[#f5d4f5] hover:bg-[#040407] hover:border-2 hover:border-[#282e46] group' data-aos="zoom-out-up">
                         <TbBrandTailwind className='text-[130px] group-hover:text-white' />
                         <h2 className='text-3xl text-[#151515] group-hover:text-white font-bold text-center'>Tailwind CSS</h2>
                     </motion.div>
 
-                    <motion.div whileHover={{ scale: 1.05 }} className='cursor-pointer p-4 border-2 border-[#863d8f] rounded-md flex justify-between gap-2 items-center flex-col bg-gradient-to-r from-[#853d8f83] to-[#f5d4f5] hover:bg-[#040407] hover:border-2 hover:border-[#282e46] group'>
+                    <motion.div whileHover={{ scale: 1.05 }} className='cursor-pointer p-4 border-2 border-[#863d8f] rounded-md flex justify-between gap-2 items-center flex-col bg-gradient-to-r from-[#853d8f83] to-[#f5d4f5] hover:bg-[#040407] hover:border-2 hover:border-[#282e46] group' data-aos="zoom-out-up">
                         <FaReact className='text-[130px] group-hover:text-white' />
                         <h2 className='text-3xl text-[#151515] group-hover:text-white font-bold text-center'>React JS</h2>
                     </motion.div>
 
-                    <motion.div whileHover={{ scale: 1.05 }} className='cursor-pointer p-4 border-2 border-[#863d8f] rounded-md flex justify-between gap-2 items-center flex-col bg-gradient-to-r from-[#853d8f83] to-[#f5d4f5] hover:bg-[#040407] hover:border-2 hover:border-[#282e46] group'>
+                    <motion.div whileHover={{ scale: 1.05 }} className='cursor-pointer p-4 border-2 border-[#863d8f] rounded-md flex justify-between gap-2 items-center flex-col bg-gradient-to-r from-[#853d8f83] to-[#f5d4f5] hover:bg-[#040407] hover:border-2 hover:border-[#282e46] group' data-aos="zoom-out-up">
                         <FaNode className='text-[130px] group-hover:text-white' />
                         <h2 className='text-3xl text-[#151515] group-hover:text-white font-bold text-center'>Node JS</h2>
                     </motion.div>
 
-                    <motion.div whileHover={{ scale: 1.05 }} className='cursor-pointer p-4 border-2 border-[#863d8f] rounded-md flex justify-between gap-2 items-center flex-col bg-gradient-to-r from-[#853d8f83] to-[#f5d4f5] hover:bg-[#040407] hover:border-2 hover:border-[#282e46] group'>
+                    <motion.div whileHover={{ scale: 1.05 }} className='cursor-pointer p-4 border-2 border-[#863d8f] rounded-md flex justify-between gap-2 items-center flex-col bg-gradient-to-r from-[#853d8f83] to-[#f5d4f5] hover:bg-[#040407] hover:border-2 hover:border-[#282e46] group' data-aos="zoom-out-up">
                         <SiExpress className='text-[130px] group-hover:text-white' />
                         <h2 className='text-3xl text-[#151515] group-hover:text-white font-bold text-center'>Express JS</h2>
-                    </motion.div>
+                    </motion.div >
 
-                    <motion.div whileHover={{ scale: 1.05 }} className='cursor-pointer p-4 border-2 border-[#863d8f] rounded-md flex justify-between gap-2 items-center flex-col bg-gradient-to-r from-[#853d8f83] to-[#f5d4f5] hover:bg-[#040407] hover:border-2 hover:border-[#282e46] group'>
+                    <motion.div whileHover={{ scale: 1.05 }} className='cursor-pointer p-4 border-2 border-[#863d8f] rounded-md flex justify-between gap-2 items-center flex-col bg-gradient-to-r from-[#853d8f83] to-[#f5d4f5] hover:bg-[#040407] hover:border-2 hover:border-[#282e46] group' data-aos="zoom-out-up">
                         <SiMongodb className='text-[130px] group-hover:text-white' />
                         <h2 className='text-3xl text-[#151515] group-hover:text-white font-bold text-center'>Mongo DB</h2>
                     </motion.div>
 
-                    <motion.div whileHover={{ scale: 1.05 }} className='cursor-pointer p-4 border-2 border-[#863d8f] rounded-md flex justify-between gap-2 items-center flex-col bg-gradient-to-r from-[#853d8f83] to-[#f5d4f5] hover:bg-[#040407] hover:border-2 hover:border-[#282e46] group'>
+                    <motion.div whileHover={{ scale: 1.05 }} className='cursor-pointer p-4 border-2 border-[#863d8f] rounded-md flex justify-between gap-2 items-center flex-col bg-gradient-to-r from-[#853d8f83] to-[#f5d4f5] hover:bg-[#040407] hover:border-2 hover:border-[#282e46] group' data-aos="zoom-out-up">
                         <IoLogoFirebase className='text-[130px] group-hover:text-white' />
                         <h2 className='text-3xl text-[#151515] group-hover:text-white font-bold text-center'>Firebase</h2>
                     </motion.div>
