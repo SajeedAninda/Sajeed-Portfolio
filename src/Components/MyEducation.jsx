@@ -13,7 +13,7 @@ const MyEducation = () => {
 
                 <div className='mt-8'>
                     <div className='flex'>
-                        <motion.div data-aos="fade-right"
+                        <motion.div data-aos="fade-up"
                             data-aos-offset="200"
                             data-aos-easing="ease-in-sine" 
                             whileHover={{ scale: 1.05 }} 
@@ -65,7 +65,7 @@ const MyEducation = () => {
                         <div className='w-[15%] hidden lg:block'>
 
                         </div>
-                        <motion.div data-aos="fade-left"
+                        <motion.div data-aos="fade-up"
                             data-aos-offset="200"
                             data-aos-easing="ease-in-sine" whileHover={{ scale: 1.05 }} className="cardBg cursor-pointer border-4 border-[#863d8f] w-full xl:w-[85%] rounded-md shadow-lg mb-12 py-5 xl:pr-5 h-fit">
                             <div className="xl:flex gap-6 px-4 leading-none max-w-4xl">
