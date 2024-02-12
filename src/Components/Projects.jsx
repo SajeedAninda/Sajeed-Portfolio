@@ -40,7 +40,21 @@ import imgJJJ from "../assets/crafters/jjj-min.png"
 import imgKKK from "../assets/crafters/kkk-min.png"
 import imgLLL from "../assets/crafters/lll-min.png"
 import imgMMM from "../assets/crafters/mmm-min.png"
-import { motion} from 'framer-motion';
+import imgAAAA from "../assets/scholarix/aaaa.png"
+import imgBBBB from "../assets/scholarix/bbbb.png"
+import imgCCCC from "../assets/scholarix/cccc.png"
+import imgDDDD from "../assets/scholarix/dddd.png"
+import imgEEEE from "../assets/scholarix/eeee.png"
+import imgFFFF from "../assets/scholarix/ffff.png"
+import imgGGGG from "../assets/scholarix/gggg.png"
+import imgHHHH from "../assets/scholarix/hhhh.png"
+import imgIIII from "../assets/scholarix/iiii.png"
+import imgJJJJ from "../assets/scholarix/jjjj.png"
+import imgKKKK from "../assets/scholarix/kkkk.png"
+import imgLLLL from "../assets/scholarix/llll.png"
+import imgMMMM from "../assets/scholarix/mmmm.png"
+
+import { motion } from 'framer-motion';
 
 const Projects = () => {
     return (
@@ -50,8 +64,98 @@ const Projects = () => {
                 <h3 className='text-xl pt-2 text-[#151515] font-bold text-center'>See the projects that helped me build experience in MERN Stack Development</h3>
 
                 <div className='py-12'>
-                    {/* SOVEREIGN ASSETS  */}
+                    {/* SCHOLARIX  */}
                     <div className='flex gap-6 lg:gap-0 flex-col-reverse lg:flex-row items-center border-b-2 border-[#f9d5fa] pb-6' data-aos="fade-up-right">
+                        <div className='texts w-full lg:w-[50%] space-y-3'>
+                            <h2 className='text-4xl text-[#151515] font-bold'>Scholarix</h2>
+                            <p className='text-xl text-[#151515] font-semibold'>A comprehensive platform connecting students with expert guidance, resources, and opportunities to navigate their academic journey effectively. From college admissions assistance to career counseling, this web app empowers students in achieving their educational goals.</p>
+                            <ul className='list-disc pl-8 font-medium w-[95%]'>
+                                <li>Developed integration for mobile and card payments utilizing the SSLCommerz platform.</li>
+                                <li>Implemented highly intricate parallel filtering functionality on the backend system, leveraging advanced techniques to enhance performance and efficiency.</li>
+                                <li>Constructed separate dashboards tailored for users and administrators by employing conditional rendering methods.</li>
+                            </ul>
+
+                            <div className='flex gap-2'>
+                                <a className='font-bold text-lg hover:underline hover:text-[#863d8f]' href="https://scholarix.netlify.app/" target='_blank'>Live Link</a>
+                                |
+                                <a className='font-bold text-lg hover:underline hover:text-[#863d8f]' href="https://github.com/SajeedAninda/Scholarix-Client" target='_blank'>Client Side</a>
+                                |
+                                <a className='font-bold text-lg hover:underline hover:text-[#863d8f]' href="https://github.com/SajeedAninda/Scholarix-Server" target='_blank'>Server Side</a>
+                            </div>
+                        </div>
+
+                        <motion.div whileHover={{ scale: 1.05 }} className='slides shadow-2xl border-2 p-4 rounded-md border-[#863d8f] w-full lg:w-[50%]'>
+                            <Swiper
+                                spaceBetween={30}
+                                centeredSlides={true}
+                                autoplay={{
+                                    delay: 2500,
+                                    disableOnInteraction: false,
+                                }}
+                                pagination={{
+                                    clickable: true,
+                                }}
+                                navigation={false}
+                                modules={[Autoplay, Pagination, Navigation]}
+                                className="mySwiper shadow-2xl"
+                            >
+                                <SwiperSlide>
+                                    <img src={imgAAAA} alt="" />
+                                </SwiperSlide>
+
+                                <SwiperSlide>
+                                    <img src={imgBBBB} alt="" />
+                                </SwiperSlide>
+
+                                <SwiperSlide>
+                                    <img src={imgCCCC} alt="" />
+                                </SwiperSlide>
+
+                                <SwiperSlide>
+                                    <img src={imgDDDD} alt="" />
+                                </SwiperSlide>
+
+                                <SwiperSlide>
+                                    <img src={imgEEEE} alt="" />
+                                </SwiperSlide>
+
+                                <SwiperSlide>
+                                    <img src={imgFFFF} alt="" />
+                                </SwiperSlide>
+
+                                <SwiperSlide>
+                                    <img src={imgGGGG} alt="" />
+                                </SwiperSlide>
+
+                                <SwiperSlide>
+                                    <img src={imgHHHH} alt="" />
+                                </SwiperSlide>
+
+                                <SwiperSlide>
+                                    <img src={imgIIII} alt="" />
+                                </SwiperSlide>
+
+                                <SwiperSlide>
+                                    <img src={imgJJJJ} alt="" />
+                                </SwiperSlide>
+
+                                <SwiperSlide>
+                                    <img src={imgKKKK} alt="" />
+                                </SwiperSlide>
+
+                                <SwiperSlide>
+                                    <img src={imgLLLL} alt="" />
+                                </SwiperSlide>
+
+                                <SwiperSlide>
+                                    <img src={imgMMMM} alt="" />
+                                </SwiperSlide>
+                            </Swiper>
+                        </motion.div>
+                    </div>
+
+                    {/* SOVEREIGN ASSETS  */}
+                    <div className='flex gap-6 lg:gap-0 flex-col-reverse lg:flex-row items-center pt-8 border-b-2 border-[#f9d5fa] pb-6' data-aos="fade-up-right">
                         <div className='texts w-full lg:w-[50%] space-y-3'>
                             <h2 className='text-4xl text-[#151515] font-bold'>Sovereign Assets Solutions</h2>
                             <p className='text-xl text-[#151515] font-semibold'>A web application that streamlines asset management for businesses through an intuitive platform, allowing HR/Admins to effortlessly track employee interactions with company assets.</p>
