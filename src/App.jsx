@@ -6,6 +6,7 @@ import MyEducation from "./Components/MyEducation"
 import MyExperience from "./Components/MyExperience"
 import Projects from "./Components/Projects"
 import Skills from "./Components/Skills"
+import './App.css'
 
 function App() {
 

@@ -68,7 +68,7 @@ const Projects = () => {
                     <div className='flex gap-6 lg:gap-0 flex-col-reverse lg:flex-row items-center border-b-2 border-[#f9d5fa] pb-6' data-aos="fade-up-right">
                         <div className='texts w-full lg:w-[50%] space-y-3'>
                             <h2 className='text-4xl text-[#151515] font-bold'>Scholarix</h2>
-                            <p className='text-xl text-[#151515] font-semibold'>A comprehensive platform connecting students with expert guidance, resources, and opportunities to navigate their academic journey effectively. From college admissions assistance to career counseling, this web app empowers students in achieving their educational goals.</p>
+                            <p className='text-xl text-[#151515] font-semibold'>A comprehensive platform connecting students with expert guidance, resources, and opportunities to navigate their academic journey effectively.</p>
                             <ul className='list-disc pl-8 font-medium w-[95%]'>
                                 <li>Developed integration for mobile and card payments utilizing the SSLCommerz platform.</li>
                                 <li>Implemented highly intricate parallel filtering functionality on the backend system, leveraging advanced techniques to enhance performance and efficiency.</li>
