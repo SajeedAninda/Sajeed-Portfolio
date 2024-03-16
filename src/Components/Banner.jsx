@@ -64,7 +64,7 @@ const Banner = () => {
                         </a>
                     </div>
 
-                    <a href={'https://drive.google.com/file/d/105iSXii7wx0NrIsAp2L_Rbm_iCHLjcdW/view?usp=drive_link'} download={"Resume"} className='mt-3'>
+                    <a href={'https://drive.google.com/uc?export=download&id=105iSXii7wx0NrIsAp2L_Rbm_iCHLjcdW'} download={"Resume"} className='mt-3'>
                         <motion.button whileHover={{ scale: 1.05 }} className='px-6 text-white text-lg py-3 font-bold mt-4 rounded-md bg-gradient-to-r from-[#863d8f] to-[#aa95aa] hover:bg-gradient-to-r hover:from-[#aa95aa] hover:to-[#863d8f] '>Download My Resume</motion.button>
                     </a>
                 </motion.div>
